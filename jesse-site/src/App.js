@@ -1,11 +1,12 @@
 
 import './App.css';
 import Header from './Header';
+import ContactUs from './contact';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <span><Header /></span>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,7 +21,9 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <footer><ContactUs /></footer>
     </div>
+    
   );
 }
 
