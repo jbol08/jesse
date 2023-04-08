@@ -2,11 +2,15 @@
 import './App.css';
 import Header from './Header';
 import ContactUs from './contact';
+import Main from './Body';
+import Photos from "./card";
 
 function App() {
   return (
     <div className="App">
-      <span><Header /></span>
+      <div className="header">
+        <span><Header /></span>
+        </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,6 +25,11 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <div className="body">
+        < Main />
+      </div>
+      < Photos />
+      
       <footer><ContactUs /></footer>
     </div>
     
